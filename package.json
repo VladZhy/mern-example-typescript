@@ -1,0 +1,21 @@
+{
+	"name": "code-example",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build:server": "pnpm --filter server build",
+		"dev:server": "pnpm --filter server dev",
+		"prod:server": "pnpm --filter server prod",
+		"build:client": "pnpm --filter client build",
+		"dev:client": "pnpm --filter client dev",
+		"prod:client": "pnpm --filter server prod",
+		"format": "prettier . --write"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "3.0.3"
+	}
+}

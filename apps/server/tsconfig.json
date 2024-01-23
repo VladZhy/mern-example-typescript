@@ -1,0 +1,10 @@
+{
+	"extends": "@code-example/tsconfig/tsconfig.base.json",
+	"include": ["src/**/*"],
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"outDir": "dist",
+		"baseUrl": "./src"
+	}
+}
